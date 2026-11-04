@@ -12,8 +12,8 @@ export const BRAND_CITY = 'San Diego, California';
 export const BRAND_EMAIL = 'maraikarosemond68@gmail.com';
 export const BRAND_PHONE = '+1 (619) 310-8637';
 
-export const HERO_IMAGE = '/src/assets/images/hero_gourmet_tasting_1793833824511.jpg';
-export const SALON_IMAGE = '/src/assets/images/salon_private_tasting_1793833831573.jpg';
+export const HERO_IMAGE = '/images/hero_gourmet_tasting_1793833824511.jpg';
+export const SALON_IMAGE = '/images/salon_private_tasting_1793833831573.jpg';
 
 export const PRODUCTS: Product[] = [
   {
@@ -29,10 +29,10 @@ export const PRODUCTS: Product[] = [
     price: 295,
     category: 'Caviar & Roe',
     allocationStatus: 'Limited Allocation',
-    imageUrl: '/src/assets/images/product_imperial_caviar_1793833825706.jpg',
+    imageUrl: '/images/product_imperial_caviar_1793833825706.jpg',
     gallery: [
-      '/src/assets/images/product_imperial_caviar_1793833825706.jpg',
-      '/src/assets/images/hero_gourmet_tasting_1793833824511.jpg'
+      '/images/product_imperial_caviar_1793833825706.jpg',
+      '/images/hero_gourmet_tasting_1793833824511.jpg'
     ],
     features: [
       'Traditional Malossol Cure (< 3.2% Sea Salt)',
@@ -58,10 +58,10 @@ export const PRODUCTS: Product[] = [
     price: 145,
     category: 'Truffle & Elixirs',
     allocationStatus: 'Available',
-    imageUrl: '/src/assets/images/product_truffle_elixir_1793833826562.jpg',
+    imageUrl: '/images/product_truffle_elixir_1793833826562.jpg',
     gallery: [
-      '/src/assets/images/product_truffle_elixir_1793833826562.jpg',
-      '/src/assets/images/hero_gourmet_tasting_1793833824511.jpg'
+      '/images/product_truffle_elixir_1793833826562.jpg',
+      '/images/hero_gourmet_tasting_1793833824511.jpg'
     ],
     features: [
       '100% Real Winter Tuber Melanosporum Infusion',
@@ -86,9 +86,9 @@ export const PRODUCTS: Product[] = [
     price: 115,
     category: 'Truffle & Elixirs',
     allocationStatus: 'Seasonal Reserve',
-    imageUrl: '/src/assets/images/product_saffron_honey_1793833828837.jpg',
+    imageUrl: '/images/product_saffron_honey_1793833828837.jpg',
     gallery: [
-      '/src/assets/images/product_saffron_honey_1793833828837.jpg'
+      '/images/product_saffron_honey_1793833828837.jpg'
     ],
     features: [
       'Unheated & Unfiltered Raw Single-Apiary Nectar',
@@ -113,9 +113,9 @@ export const PRODUCTS: Product[] = [
     price: 260,
     category: 'Aged Reserves',
     allocationStatus: 'Limited Allocation',
-    imageUrl: '/src/assets/images/product_balsamic_reserve_1793833828245.jpg',
+    imageUrl: '/images/product_balsamic_reserve_1793833828245.jpg',
     gallery: [
-      '/src/assets/images/product_balsamic_reserve_1793833828245.jpg'
+      '/images/product_balsamic_reserve_1793833828245.jpg'
     ],
     features: [
       '100% Cooked Trebbiano Must — Zero Added Caramel',
@@ -140,9 +140,9 @@ export const PRODUCTS: Product[] = [
     price: 340,
     category: 'Tasting Coffrets',
     allocationStatus: 'Available',
-    imageUrl: '/src/assets/images/product_tasting_coffret_1793833830603.jpg',
+    imageUrl: '/images/product_tasting_coffret_1793833830603.jpg',
     gallery: [
-      '/src/assets/images/product_tasting_coffret_1793833830603.jpg'
+      '/images/product_tasting_coffret_1793833830603.jpg'
     ],
     features: [
       'Solid Walnut & Brushed Brass Keepsake Case',
@@ -167,9 +167,9 @@ export const PRODUCTS: Product[] = [
     price: 95,
     category: 'Aged Reserves',
     allocationStatus: 'Available',
-    imageUrl: '/src/assets/images/product_champagne_cuvee_1793833832411.jpg',
+    imageUrl: '/images/product_champagne_cuvee_1793833832411.jpg',
     gallery: [
-      '/src/assets/images/product_champagne_cuvee_1793833832411.jpg'
+      '/images/product_champagne_cuvee_1793833832411.jpg'
     ],
     features: [
       '0.0% ABV Gastronomic Sommelier Cuvée',
@@ -250,7 +250,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     readTime: '4 min read',
     category: 'Savoir-Faire',
     excerpt: 'Why a fraction of a percent of sea salt determines whether sturgeon roe whispers of toasted hazelnut or loses its soul.',
-    image: '/src/assets/images/product_imperial_caviar_1793833825706.jpg',
+    image: '/images/product_imperial_caviar_1793833825706.jpg',
     content: React.createElement(
       React.Fragment,
       null,
@@ -284,7 +284,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     readTime: '5 min read',
     category: 'Provenance',
     excerpt: 'Up in the silent attics of Emilia-Romagna, time and extreme seasonal shifts concentrate grape must drop by drop.',
-    image: '/src/assets/images/product_balsamic_reserve_1793833828245.jpg',
+    image: '/images/product_balsamic_reserve_1793833828245.jpg',
     content: React.createElement(
       React.Fragment,
       null,
@@ -308,7 +308,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     readTime: '3 min read',
     category: 'Private Dining',
     excerpt: 'From La Jolla twilight terraces to private estates, how to compose an unforgettable multi-sensory tasting table.',
-    image: '/src/assets/images/salon_private_tasting_1793833831573.jpg',
+    image: '/images/salon_private_tasting_1793833831573.jpg',
     content: React.createElement(
       React.Fragment,
       null,

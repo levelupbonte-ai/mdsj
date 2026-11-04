@@ -52,6 +52,10 @@ async function startServer() {
       app.use(`/${dir}`, express.static(dirPath));
     }
   }
+  const publicImagesPath = path.join(process.cwd(), "public", "images");
+  if (fs.existsSync(publicImagesPath)) {
+    app.use("/images", express.static(publicImagesPath));
+  }
 
   app.get("/api/health", (_req, res) => {
     res.json({ status: "ok" });
