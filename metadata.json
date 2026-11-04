@@ -1,0 +1,8 @@
+{
+  "name": "MDSJ — Maison de Haute Gastronomie",
+  "description": "San Diego's premier luxury gastronomy purveyor offering rare epicurean provisions, private salon tastings, and bespoke culinary concierge service.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
